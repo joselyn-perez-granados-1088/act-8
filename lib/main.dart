@@ -15,13 +15,13 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   final List<Map<String, String>> destinations = [
-    {'name': 'Italy', 'image': 'assets/italy.jpg'},
-    {'name': 'Greece', 'image': 'assets/greece.jpg'},
+    {'name': 'Sorprendido', 'image': 'assets/cat1.jpg'},
+    {'name': 'Ballerinna2', 'image': 'assets/cat2.jpg'},
   ];
 
   final List<Map<String, String>> hotels = [
-    {'name': 'Greece', 'image': 'assets/greece.jpg'},
-    {'name': 'United States', 'image': 'assets/usa.jpg'},
+    {'name': 'Ballerina', 'image': 'assets/cat2.jpg'},
+    {'name': 'Pensante', 'image': 'assets/cat3.jpg'},
   ];
 
   @override
@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                   height: 250,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/header.jpg'), // imagen de fondo
+                      image: AssetImage('assets/header.jpg'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                         ),
                         child: TextField(
                           decoration: InputDecoration(
-                            hintText: "Search for cities, places ...",
+                            hintText: "Look for pets ...",
                             border: InputBorder.none,
                             icon: Icon(Icons.search),
                           ),
@@ -80,7 +80,7 @@ class HomePage extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Text(
-                "Best Destination",
+                "Best Pets",
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
             ),
