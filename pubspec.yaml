@@ -18,7 +18,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
+  assets:
+    - assets/header.jpg
+    - assets/italy.jpg
+    - assets/greece.jpg
+    - assets/usa.jpg
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg
   # fonts:
